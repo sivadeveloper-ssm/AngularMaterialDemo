@@ -1,0 +1,50 @@
+.app-sidenav-container {
+    flex: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.wrapper {
+    margin: 50px;
+}
+
+.app-sidenav-list {
+//   background-color: #9FA8DA;
+   height: 93vh;
+}
+
+.app-sidenav-content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.app-sidenav {
+    width: 240px;
+}
+
+.app-sidenav-list-item{
+ //   background-color: #E8EAF6;
+    margin-top: 0px;
+    
+}
+.app-sidenav-list-item:hover{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: 1s ease;
+    background-color : #9FA8DA;
+}
+
+.is-active {
+    background-color : #7986CB;
+}
+
+.app-sidenav-link{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color : black;
+}

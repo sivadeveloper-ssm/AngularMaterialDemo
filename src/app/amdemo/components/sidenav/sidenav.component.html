@@ -1,0 +1,24 @@
+<mat-sidenav-container class="app-sidenav-container">
+
+  <mat-sidenav  class="app-sidenav mat-elevation-z1" mode="side" opened>
+    
+    <mat-toolbar color="primary">
+      Subjects
+    </mat-toolbar>
+    <div class="app-sidenav-list" color="primary">
+      <mat-nav-list>
+          <mat-list-item *ngFor="let subject of Subjects" [routerLinkActive]="['is-active']" class="app-sidenav-list-item">
+        <a matLine [routerLink]="['/amdemo/',subject]" class="app-sidenav-link" >
+              {{ subject }}</a>
+          </mat-list-item>
+        </mat-nav-list>
+  </div>
+
+  </mat-sidenav>
+  <div class="app-sidenav-content">
+  <app-toolbar></app-toolbar>
+  <div class="wrapper">
+    <router-outlet></router-outlet>
+  </div>
+</div> 
+</mat-sidenav-container>

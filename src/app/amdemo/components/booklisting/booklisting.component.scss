@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+  }
+
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+
+.card-new-button {
+  justify-content: center;
+}
+
+.card-mat-table-data:hover{
+//  -webkit-transform: scale(1.0);
+//  -ms-transform: scale(1.0);
+//  transform: scale(1.0);
+//  transition: 1s ease;
+  background-color : #9FA8DA;
+}
+
+.card-mat-table-data-button {
+ text-align: right;
+}
+
+
+
+.app-generic-table-th{
+  color: darkcyan;
+}

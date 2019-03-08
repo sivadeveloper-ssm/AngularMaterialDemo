@@ -4,7 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import {Routes,RouterModule} from '@angular/router';
+
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
+const routes : Routes = [
+  { path : 'amdemo' , loadChildren : './amdemo/amdemo.module#AMDemoModule'},
+  {path : '**', redirectTo : 'amdemo'}
+]
+
 
 @NgModule({
   declarations: [
@@ -13,7 +21,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]

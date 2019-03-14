@@ -1,5 +1,14 @@
 <mat-toolbar color="primary" class="toolbar" >
 
+  <button mat-button class="sidenav-toggle" (click)="toggleSidenav.emit()">
+    <mat-icon>menu</mat-icon>
+  </button>
+
   <span>Appleton Public Library</span>
+
+  <span class="example-spacer"></span>
+  <button mat-button [matMenuTriggerFor]="menu"> My Account
+    <mat-icon>more_vert</mat-icon>
+  </button>
   
   </mat-toolbar>

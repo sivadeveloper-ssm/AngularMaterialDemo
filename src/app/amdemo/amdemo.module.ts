@@ -2,12 +2,17 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AmdemoComponent } from './amdemo.component';
 
+import {HttpClientModule} from '@angular/common/http';
+
+import {FormsModule} from '@angular/forms';
+
 import {Routes,RouterModule} from '@angular/router';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 
 import {MaterialModule} from '../shared/material.module';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { BooklistingComponent } from './components/booklisting/booklisting.component';
+import { DataService } from './services/data.service';
 
 const routes : Routes = [
   {path : '' , component : AmdemoComponent,
@@ -33,7 +38,12 @@ const routes : Routes = [
   imports: [
     CommonModule,
     MaterialModule,
+    HttpClientModule,
+    FormsModule,
     RouterModule.forChild(routes)
+  ],
+  providers: [
+    DataService
   ]
 })
 export class AMDemoModule { }

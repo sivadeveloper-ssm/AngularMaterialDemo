@@ -1,0 +1,29 @@
+.loan-card {
+  max-width: 400px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+}
+
+
+.flex-item {
+  margin-top: 15px;
+    width: 400px;
+  }
+
+.card-menu{
+  flex: 1 1 auto;
+  text-align: right;
+}
+
+.card-action{
+  flex : 1 1 auto;
+  text-align: center;
+}
+
+

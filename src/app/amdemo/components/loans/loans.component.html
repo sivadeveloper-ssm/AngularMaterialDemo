@@ -1,0 +1,98 @@
+<div class="flex-container" fxLayout.xs="column">
+  <div class="flex-item">
+<mat-card class="loan-card">
+<mat-card-header>
+  <mat-card-title>Emotional Intelligence 2.0</mat-card-title>
+ 
+  <button mat-button [matMenuTriggerFor]="menu" class="card-menu">
+      <mat-icon>more_vert</mat-icon>
+      </button>
+ 
+  
+  <mat-menu #menu="matMenu" >
+      <button mat-menu-item >Read a sample</button>
+      <button mat-menu-item >View Details</button>
+      <button mat-menu-item>Remove from history</button>
+      <button mat-menu-item>You may also like</button>
+    </mat-menu>
+
+    <mat-card-subtitle>Travis Bradberry</mat-card-subtitle>
+</mat-card-header>
+<img mat-card-image src="../assets/img/book1.jpg">
+<mat-card-content>
+      
+    <button mat-button color='primary'>Read in the browser</button>
+    <button mat-button color='primary' >Download EPUB ebook</button>
+   </mat-card-content>
+   <mat-card-actions class="card-action">
+     <button mat-button color='accent'>Return </button>
+     <button mat-button  color='accent'>Renew </button>
+   </mat-card-actions>
+</mat-card>
+</div>
+
+<div class="flex-item">
+    <mat-card class="loan-card">
+    <mat-card-header>
+      <mat-card-title>Eat the Frog</mat-card-title>
+      <mat-card-subtitle>Brian Tracy</mat-card-subtitle>
+      <button mat-button [matMenuTriggerFor]="menu" class="card-menu">
+      <mat-icon>more_vert</mat-icon>
+      </button>
+      
+      <mat-menu #menu="matMenu" >
+          <button mat-menu-item >Read a sample</button>
+          <button mat-menu-item >View Details</button>
+          <button mat-menu-item>Remove from history</button>
+          <button mat-menu-item>You may also like</button>
+        </mat-menu>
+    </mat-card-header>
+    <img mat-card-image src="../assets/img/book2.jpg">
+    <mat-card-content>
+      
+     <button mat-button color='primary'>Read in the browser</button>
+     <button mat-button color='primary' >Download EPUB ebook</button>
+    </mat-card-content>
+    <mat-card-actions class="card-action">
+      <button mat-button color='accent'>Return </button>
+      <button mat-button  color='accent'>Renew </button>
+    </mat-card-actions>
+    </mat-card>
+    </div>
+
+
+    <div class="flex-item">
+  <mat-card class="loan-card">
+  <mat-card-header>
+    <mat-card-title>Change your Brain,Change your Body</mat-card-title>
+   
+    <button mat-button [matMenuTriggerFor]="menu" class="card-menu">
+        <mat-icon>more_vert</mat-icon>
+        </button>
+   
+    
+    <mat-menu #menu="matMenu" >
+        <button mat-menu-item >Read a sample</button>
+        <button mat-menu-item >View Details</button>
+        <button mat-menu-item>Remove from history</button>
+        <button mat-menu-item>You may also like</button>
+      </mat-menu>
+  
+      <mat-card-subtitle>Daniel G.Amen. M.D</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="../assets/img/book3.jpg">
+  <mat-card-content>
+        
+      <button mat-button color='primary'>Read in the browser</button>
+      <button mat-button color='primary' >Download EPUB ebook</button>
+     </mat-card-content>
+     <mat-card-actions class="card-action">
+       <button mat-button color='accent'>Return </button>
+       <button mat-button  color='accent'>Renew </button>
+     </mat-card-actions>
+  </mat-card>
+  </div>
+  
+</div>
+
+

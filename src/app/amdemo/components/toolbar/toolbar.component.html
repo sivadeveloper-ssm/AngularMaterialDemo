@@ -1,8 +1,5 @@
 <mat-toolbar color="primary" class="toolbar" >
 
-  <button mat-button class="sidenav-toggle" (click)="toggleSidenav.emit()">
-    <mat-icon>menu</mat-icon>
-  </button>
 
   <span>Appleton Public Library</span>
 
@@ -10,5 +7,15 @@
   <button mat-button [matMenuTriggerFor]="menu"> My Account
     <mat-icon>more_vert</mat-icon>
   </button>
+
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="openPage(0)">Loans</button>
+    <button mat-menu-item (click)="openPage(1)" >Holds</button>
+    <button mat-menu-item (click)="openPage(2)">Wish List</button>
+    <button mat-menu-item (click)="openPage(3)" >Rated Titles</button>
+    <button mat-menu-item (click)="openPage(4)" >Recommendations</button>
+    <button mat-menu-item (click)="openPage(5)" >History</button>
+    <button mat-menu-item (click)="openPage(6)">Settings</button>
+  </mat-menu>
   
   </mat-toolbar>

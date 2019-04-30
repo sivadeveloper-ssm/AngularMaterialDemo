@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 
 import {Routes,RouterModule} from '@angular/router';
 
+import {FlexLayoutModule} from '@angular/flex-layout';
+
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 const routes : Routes = [
   { path : 'amdemo' , loadChildren : './amdemo/amdemo.module#AMDemoModule'},
-  {path : '**', redirectTo : 'amdemo'}
+  {path : '**', redirectTo : 'amdemo/Fiction'}
 ]
 
 
@@ -22,7 +24,8 @@ const routes : Routes = [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

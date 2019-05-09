@@ -21,101 +21,101 @@
     "type" : "EBOOK"
 },{
     "id" : 5,
+    "title" : "Cabin Fever",
+    "author" : "Jeff Kinney",
+    "type" : "EBOOK"
+},{
+    "id" : 6,
+    "title" : "Wonder",
+    "author" : "R.J. Palacio",
+    "type" : "EBOOK"
+},{
+    "id" : 7,
+    "title" : "The Lost Hero",
+    "author" : "Rick Riordan",
+    "type" : "EBOOK"
+},{
+    "id" : 8,
+    "title" : "A Wrinkle Time",
+    "author" : "Madeleine Lengie",
+    "type" : "EBOOK"
+},{
+    "id" : 9,
+    "title" : "Fantastic Beasts",
+    "author" : "J.K.Rowling",
+    "type" : "EBOOK"
+},{
+    "id" : 10,
+    "title" : "The Hammer of Thor",
+    "author" : "Rick Riordan",
+    "type" : "EBOOK"
+},{
+    "id" : 11,
+    "title" : "The Trails of Apollo",
+    "author" : "Rick Riordan",
+    "type" : "EBOOK"
+},{
+    "id" : 12,
+    "title" : "The Mark of Athena",
+    "author" : "Rick Riordan",
+    "type" : "EBOOK"
+},{
+    "id" : 13,
+    "title" : "The Son of Neptune",
+    "author" : "Rick Riordan",
+    "type" : "EBOOK"
+},{
+    "id" : 14,
+    "title" : "The Mysterious Benedict Society",
+    "author" : "Trenton Lee Stewart",
+    "type" : "EBOOK"
+},{
+    "id" : 15,
+    "title" : "Supernova",
+    "author" : "Kazu Kibuishi",
+    "type" : "EBOOK"
+},{
+    "id" : 16,
+    "title" : "Great Minds Think Alike",
+    "author" : "Lincoln Peirce",
+    "type" : "EBOOK"
+},{
+    "id" : 17,
+    "title" : "The Westing Game",
+    "author" : "Ellen Raskin",
+    "type" : "EBOOK"
+},{
+    "id" : 18,
+    "title" : "Where the Red Fern Grows",
+    "author" : "Wilson Rawls",
+    "type" : "EBOOK"
+},{
+    "id" : 19,
+    "title" : "The Alchemyst",
+    "author" : "Michael Scott",
+    "type" : "EBOOK"
+},{
+    "id" : 20,
+    "title" : "Warriors Into the Wild",
+    "author" : "Erin Hunter",
+    "type" : "EBOOK"
+},{
+    "id" : 21,
     "title" : "Black Panther(2016)",
     "author" : "Ta-Nehisi Coates",
     "type" : "EBOOK"
 },{
-    "id" : 1,
+    "id" : 22,
     "title" : "Black Panther(2016)",
     "author" : "Ta-Nehisi Coates",
     "type" : "EBOOK"
 },{
-    "id" : 1,
+    "id" : 23,
     "title" : "Black Panther(2016)",
     "author" : "Ta-Nehisi Coates",
     "type" : "EBOOK"
 },{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
-    "title" : "Black Panther(2016)",
-    "author" : "Ta-Nehisi Coates",
-    "type" : "EBOOK"
-},{
-    "id" : 1,
+    "id" : 24,
     "title" : "Black Panther(2016)",
     "author" : "Ta-Nehisi Coates",
     "type" : "EBOOK"
